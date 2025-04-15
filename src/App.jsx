@@ -1,10 +1,14 @@
-import React from 'react'
-import { NavbarC } from './components/navbar/NavbarC'
+import React from "react";
+import { NavbarC } from "./components/navbar/NavbarC";
+import { CarouselC } from "./components/carousel/CarouselC";
 
 export const App = () => {
   return (
     <>
-      <NavbarC/>
+      <div>
+        <NavbarC />
+        <CarouselC />
+      </div>
     </>
-  )
-}
+  );
+};
