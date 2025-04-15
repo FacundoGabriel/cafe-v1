@@ -5,6 +5,7 @@ import { DescatacadosCafe } from '../components/destacado/DescatacadosCafe'
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
 import AOS from 'aos';
+import { Menu } from '../components/menu/Menu';
 
 
 export const HomePage = () => {
@@ -17,6 +18,7 @@ export const HomePage = () => {
         <NavbarC/>
         <CarouselC/>
         <DescatacadosCafe/>
+        <Menu/>
     </div>
   )
 }

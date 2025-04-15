@@ -1,0 +1,28 @@
+.container-menu{
+    background: #e7e7e7e6  ;
+}
+
+.container-menu h2{
+    color: #48332F;
+    padding-bottom: 10px;
+    border-bottom: 5px solid #4BBC56;
+    width: 90px;
+    font-weight: bold;
+
+}
+
+.menu-item {
+    min-height: 190px;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+  }
+
+.menu-item h3{
+    color: #4BBC56;
+}
+
+
+.menu-item p:nth-of-type(2){
+    font-size: 20px;
+    margin-top: auto;
+}
