@@ -1,0 +1,93 @@
+.card-destacado {
+    width: 251px;
+    height: 315px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+    border: 4px solid transparent; 
+    border-right: 1px solid #F1F1F1;
+    position: relative; 
+}
+
+.card-destacado span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+
+}
+
+.card-destacado span i {
+    font-size: 50px;
+    color: #48332f;
+}
+
+.card-destacado h3 {
+    margin-top: 15px;
+    color: #4BBC56;
+    font-size: 25px;
+    height: 60px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.card-destacado p {
+    flex-grow: 1;
+    margin-top: 20px;
+    color: #878787;
+}
+
+.card-destacado::after {
+    content: ""; 
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 1px;
+    height: 100%;
+    background-color: #F1F1F1;
+    transition: width 0.5s ease, background-color 0.5s ease;
+}
+
+.card-destacado:hover {
+    border-color: #4BBC56;
+}
+
+.card-destacado:hover::after {
+    width: 4px;
+    background-color: #4BBC56;
+}
+
+
+@media (max-width: 988px) {
+    .card-destacado {
+        border: none;
+        border-bottom: 1px solid #F1F1F1;
+        transition: none !important;
+    }
+
+    .card-destacado::after {
+        display: none !important;
+    }
+
+    .card-destacado:hover,
+    .card-destacado:active,
+    .card-destacado:focus {
+        border: none !important;
+        background-color: transparent !important;
+        transition: none !important;
+    }
+
+    .card-destacado:hover::after,
+    .card-destacado:active::after,
+    .card-destacado:focus::after {
+        display: none !important;
+        transition: none !important;
+    }
+}
