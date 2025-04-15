@@ -1,9 +1,10 @@
 import React from 'react'
+import { NavbarC } from './components/navbar/NavbarC'
 
 export const App = () => {
   return (
-    <div>
-      <h2>cafe</h2>
-    </div>
+    <>
+      <NavbarC/>
+    </>
   )
 }
