@@ -1,14 +1,10 @@
-import React from "react";
-import { NavbarC } from "./components/navbar/NavbarC";
-import { CarouselC } from "./components/carousel/CarouselC";
+import { HomePage } from './pages/HomePage'
 
 export const App = () => {
+  
   return (
-    <>
-      <div>
-        <NavbarC />
-        <CarouselC />
-      </div>
-    </>
-  );
-};
+    <div>
+      <HomePage/>
+    </div>
+  )
+}
