@@ -1,0 +1,63 @@
+[
+    {
+      "name": "Espresso",
+      "description": "Lavazza, classic coffee, 30ml",
+      "price": 1.99
+    },
+    {
+      "name": "Cappuccino",
+      "description": "60ml Espresso, 60ml Steamed Milk, 60ml Foamed Milk",
+      "price": 1.39
+    },
+    {
+      "name": "Double Burger",
+      "description": "Tabasco sauce, ground beef",
+      "price": 6.49
+    },
+    {
+      "name": "Ristretto",
+      "description": "Lavazza, arabica, robusta, 22ml",
+      "price": 1.99
+    },
+    {
+      "name": "Burger",
+      "description": "Worcestershire sauce, onions, mustard, ground beef",
+      "price": 4.99
+    },
+    {
+      "name": "Fish Burger",
+      "description": "2 tbsp chopped parsley, catfish",
+      "price": 4.59
+    },
+    {
+      "name": "Americano",
+      "description": "60ml Espresso, 90ml Hot Water",
+      "price": 2.49
+    },
+    {
+      "name": "Burger XXL",
+      "description": "Ground beef, chopped iceberg lettuce, American cheese",
+      "price": 5.99
+    },
+    {
+      "name": "French Fries",
+      "description": "1 russet potato, vegetable oil, salt",
+      "price": 4.99
+    },
+    {
+      "name": "Lungo",
+      "description": "60ml Less Concentrated Espresso",
+      "price": 1.99
+    },
+    {
+      "name": "Macchiato",
+      "description": "60ml Espresso, Dot of Foamed Milk",
+      "price": 2.49
+    },
+    {
+      "name": "Tiramisu",
+      "description": "Mascarpone, heavy cream",
+      "price": 4.99
+    }
+
+  ]
