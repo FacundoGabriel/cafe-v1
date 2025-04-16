@@ -6,6 +6,7 @@ import 'aos/dist/aos.css';
 import { useEffect } from 'react';
 import AOS from 'aos';
 import { Menu } from '../components/menu/Menu';
+import { Divisor } from '../components/divisor/Divisor';
 
 
 export const HomePage = () => {
@@ -19,6 +20,7 @@ export const HomePage = () => {
         <CarouselC/>
         <DescatacadosCafe/>
         <Menu/>
+        <Divisor/>
     </div>
   )
 }
