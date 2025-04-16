@@ -7,6 +7,7 @@ import { useEffect } from 'react';
 import AOS from 'aos';
 import { Menu } from '../components/menu/Menu';
 import { Divisor } from '../components/divisor/Divisor';
+import { Nosotros } from '../components/nosotros/Nosotros';
 
 
 export const HomePage = () => {
@@ -21,6 +22,7 @@ export const HomePage = () => {
         <DescatacadosCafe/>
         <Menu/>
         <Divisor/>
+        <Nosotros/>
     </div>
   )
 }
