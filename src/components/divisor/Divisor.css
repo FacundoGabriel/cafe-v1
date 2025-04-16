@@ -1,0 +1,13 @@
+.container-divisor{
+    height: 200px;
+    background-color: #48332F;
+}
+
+.info h2{
+    color: #fff;
+    font-size: 50px;
+}
+
+.info p{
+    color: #c1c1c1;
+}
