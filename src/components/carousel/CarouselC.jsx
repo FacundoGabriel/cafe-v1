@@ -5,7 +5,7 @@ export const CarouselC = () => {
   return (
     <>
 
-      <Carousel className="carousel">
+      <Carousel className="carousel" id="inicio">
         <Carousel.Item>
           <img src="/img/carousel_1.jpg" className="img-fluid img-carousel" alt="First slide" />
         </Carousel.Item>
