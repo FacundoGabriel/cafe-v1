@@ -1,0 +1,75 @@
+#contacto {
+    scroll-margin-top: 80px;
+}
+  
+
+
+.container-contacto {
+    padding: 30px;
+  }
+  
+  .container-contacto h2{
+    color: #48332F;
+    padding-bottom: 10px;
+    border-bottom: 5px solid #4BBC56;
+    width: 120px;
+    font-weight: bold;
+}
+
+
+.contacto-info {
+    align-items: center;
+    gap: 20px; 
+    text-align: center;
+    justify-content: center;
+}
+  
+  
+.contacto-info input {
+    /* min-width: 40%;  */
+    width: 650px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+  
+.list-iconos{
+    gap: 15px;
+}
+.list-iconos li a {
+    font-size: 40px; /* Tamaño de fuente para los enlaces */
+    
+}
+
+.list-iconos li a i { 
+    font-size: 40px; /* Tamaño de los iconos dentro de <i> */
+}
+
+.btn-style{
+    background-color: #4BBC56;
+    border: none;
+    padding: 10px 15px;
+    color: #fff;
+    width: 120px;
+    min-width: 120px;
+    font-size: 18px;
+    line-height: 24px;
+    transition: background-color 0.5s ease;
+}
+
+
+.btn-style:hover{
+    background-color: #24952F;
+}
+
+@media (max-width: 767px) {
+    .contacto-info input {
+        width: 100%; 
+    }
+    
+    .btn-style{
+        width: 100%;
+    }
+}
+
