@@ -48,3 +48,7 @@
 .list-iconos a:hover{
     color: #4BBC56;
 }
+
+#sobre-nosotros {
+    scroll-margin-top: 50px;
+  }

@@ -4,7 +4,7 @@ import empleados from "../../empleados.json";
 export const Nosotros = () => {
   return (
     <>
-      <div className="container-fluid container-nosotros">
+      <div id="sobre-nosotros" className="container-fluid container-nosotros">
         <h3 className="pt-5" data-aos="fade-right">
           ¿Quienes somos?
         </h3>

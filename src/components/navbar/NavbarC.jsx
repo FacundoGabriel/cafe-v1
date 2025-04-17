@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 import './NavbarC.css'
 
 export const NavbarC = () => {
+
   return (
     <>
   <Navbar expand="lg" className="bg-light position-fixed navbar">
@@ -15,12 +16,12 @@ export const NavbarC = () => {
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className="menu-collapse">
-          <Nav className="mx-auto">
-            <Nav.Link className="nav-item" href="#home">Inicio</Nav.Link>
-            <Nav.Link className="nav-item" href="#about">Sobre nosotros</Nav.Link>
-            <Nav.Link className="nav-item" href="#menu">Menú</Nav.Link>
-            <Nav.Link className="nav-item" href="#contact">Contacto</Nav.Link>
-          </Nav>
+          <Nav className="mx-auto nav-item">
+              <a className="" href="#inicio">Inicio</a>
+              <a className="" href="#menu">Menú</a>
+              <a className="" href="#sobre-nosotros">Sobre nosotros</a>
+              <a className="" href="#contacto">Contacto</a>
+            </Nav>
         </Navbar.Collapse>
       </Container>
     </Navbar>
