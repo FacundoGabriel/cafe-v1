@@ -9,6 +9,7 @@ import { Menu } from '../components/menu/Menu';
 import { Divisor } from '../components/divisor/Divisor';
 import { Nosotros } from '../components/nosotros/Nosotros';
 import { Contacto } from '../components/contacto/Contacto';
+import { Footer } from '../components/footer/Footer';
 
 
 export const HomePage = () => {
@@ -25,6 +26,7 @@ export const HomePage = () => {
         <Divisor/>
         <Nosotros/>
         <Contacto/>
+        <Footer/>
     </div>
   )
 }
