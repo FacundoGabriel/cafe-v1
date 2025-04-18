@@ -1,7 +1,7 @@
 [
     {
         "nombre": "Facundo De La Cruz",
-        "foto": "public/img/img_sobre-nosotros.png",
+        "foto": "/img/img_sobre-nosotros.png",
         "description": "El CEO de la empresa, responsable de la visión y estrategia global.",
         "cargo": "CEO",
         "redes": {
@@ -12,7 +12,7 @@
     },
     {
         "nombre": "Mariana López",
-        "foto": "public/img/img_sobre-nosotros.png",
+        "foto": "/img/img_sobre-nosotros.png",
         "description": "Co-Fundadora, en constante búsqueda de nuevas oportunidades de negocio y crecimiento.",
         "cargo": "Co-Founder",
         "redes": {
@@ -23,7 +23,7 @@
     },
     {
         "nombre": "Carlos Martínez",
-        "foto": "public/img/img_sobre-nosotros.png",
+        "foto": "/img/img_sobre-nosotros.png",
         "description": "Manager, a cargo de la coordinación y supervisión de las operaciones diarias.",
         "cargo": "Manager",
         "redes": {
@@ -34,7 +34,7 @@
     },
     {
         "nombre": "Lucía Rodríguez",
-        "foto": "public/img/img_sobre-nosotros.png",
+        "foto": "/img/img_sobre-nosotros.png",
         "description": "Head Barista, experta en la preparación de café y líder del equipo de baristas.",
         "cargo": "Head Barista",
         "redes": {
@@ -45,7 +45,7 @@
     },
     {
         "nombre": "José Pérez",
-        "foto": "public/img/img_sobre-nosotros.png",
+        "foto": "/img/img_sobre-nosotros.png",
         "description": "Manager, enfocado en la gestión de personal y optimización de recursos.",
         "cargo": "Manager",
         "redes": {
@@ -56,7 +56,7 @@
     },
     {
         "nombre": "Sofía Gómez",
-        "foto": "public/img/img_sobre-nosotros.png",
+        "foto": "/img/img_sobre-nosotros.png",
         "description": "Barista, apasionada por crear las mejores experiencias para nuestros clientes.",
         "cargo": "Barista",
         "redes": {
@@ -67,7 +67,7 @@
     },
     {
         "nombre": "Roberto Fernández",
-        "foto": "public/img/img_sobre-nosotros.png",
+        "foto": "/img/img_sobre-nosotros.png",
         "description": "Mozo, siempre listo para asegurar que cada cliente se sienta bien atendido.",
         "cargo": "Mozo",
         "redes": {
