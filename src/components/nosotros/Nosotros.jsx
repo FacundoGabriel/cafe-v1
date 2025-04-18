@@ -9,8 +9,8 @@ export const Nosotros = () => {
           ¿Quienes somos?
         </h3>
         <div className="info-nosotros mt-4">
-          <h2 data-aos="fade-left">Una historia que comenzó con aroma</h2>
-          <p data-aos="fade-left">
+          <h2 data-aos="fade-right">Una historia que comenzó con aroma</h2>
+          <p data-aos="fade-right">
             Todo empezó en una pequeña cocina, con una vieja cafetera que reunía
             amigos, risas y sueños. Lo que era una simple costumbre se
             transformó en pasión: compartir el mejor café, hecho con dedicación
