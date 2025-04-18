@@ -64,16 +64,6 @@
           "instagram": "https://instagram.com",
           "twitter": "https://twitter.com"
         }
-    },
-    {
-        "nombre": "Roberto Fernández",
-        "foto": "/img/img_sobre-nosotros.png",
-        "description": "Mozo, siempre listo para asegurar que cada cliente se sienta bien atendido.",
-        "cargo": "Mozo",
-        "redes": {
-          "facebook": "https://facebook.com",
-          "instagram": "https://instagram.com",
-          "twitter": "https://twitter.com"
-        }
     }
+
 ]

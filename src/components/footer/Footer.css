@@ -91,13 +91,13 @@
   }
   
 
-@media (max-width: 990){
+@media (max-width: 990px){
     .politicas-info p {
-        padding-left: 70px;
+        padding-left: 85px;
     }
 
     .footer-info p {
-        padding-left: 55px;
+        padding-left: 80px;
     }
    
 }

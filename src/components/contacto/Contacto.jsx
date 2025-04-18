@@ -4,14 +4,14 @@ export const Contacto = () => {
   return (
     <>
         <div id='contacto' className='container-fluid container-contacto  mt-5'>
-            <h2>Contacto</h2>
+            <h2 data-aos="fade-right">Contacto</h2>
 
             <div className='contacto-info d-flex justify-content-center flex-column flex-lg-row gap-10 mt-5'>
-                <h3 className='mt-5 mt-lg-0' >Contactanos</h3>
-                <input type="email" className='' placeholder='correo'/>
-                <button className='btn-style '>Enviar</button>
+                <h3 data-aos="fade-up" className='mt-5 mt-lg-0' >Contactanos</h3>
+                <input data-aos="fade-up" type="email" className='' placeholder='correo'/>
+                <button data-aos="fade-up" className='btn-style '>Enviar</button>
 
-                <ul className="list-unstyled d-flex gap-10 justify-content-center align-items-center m-0 p-0 list-iconos">
+                <ul data-aos="fade-up" className="list-unstyled d-flex gap-10 justify-content-center align-items-center m-0 p-0 list-iconos">
                 <li><a href="#" target="_blank">
                     <i className="mdi mdi-facebook"></i>
                   </a>
