@@ -1,0 +1,54 @@
+.container-nosotros h3{
+    color: #48332F;
+    padding-bottom: 10px;
+    border-bottom: 5px solid #4BBC56;
+    width: 265px;
+    font-weight: bold;
+}
+
+.empleados-info {
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+  
+.img-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+.img-wrapper img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+
+}
+  
+
+.empleados-info p:first-of-type {
+    color: #c1c1c1;
+}
+
+.list-iconos li i{
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.list-iconos a {
+    color: #878686;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.list-iconos a:hover{
+    color: #4BBC56;
+}
+
+#sobre-nosotros {
+    scroll-margin-top: 50px;
+  }

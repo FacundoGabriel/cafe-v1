@@ -4,7 +4,7 @@ import menu from "../../menu.json";
 export const Menu = () => {
   return (
     <>
-      <div className="container-fluid container-menu">
+      <div id="menu" className="container-fluid container-menu">
         <h2 className="pt-5" data-aos="fade-right">Menú</h2>
 
         <div className="row mt-5" data-aos="fade-up"  >
